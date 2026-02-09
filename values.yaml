@@ -94,7 +94,7 @@ httpRoute:
   rules:
   - matches:
     - path:
-        type: PathPrefix
+        type: Prefix
         value: /headers
   #   filters:
   #   - type: RequestHeaderModifier
